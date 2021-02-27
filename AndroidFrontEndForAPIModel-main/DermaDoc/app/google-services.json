@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "358499619446",
+    "firebase_url": "https://dermadoc-876db.firebaseio.com",
+    "project_id": "dermadoc-876db",
+    "storage_bucket": "dermadoc-876db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358499619446:android:ad0b53f478dbe64da24557",
+        "android_client_info": {
+          "package_name": "com.example.dermadoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358499619446-r6v7qlamh4r8h1full3dmmkd29qgmd6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdAxB871HDfQwwpMHgXe_yEaYKQK8rJJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358499619446-r6v7qlamh4r8h1full3dmmkd29qgmd6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

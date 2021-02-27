@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="Sign Up"
+        android:paddingVertical="70dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textColor="#000"
+        android:background="@drawable/bg"
+        android:layout_marginBottom="25dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Enter your Email"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="30dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_bg"
+        android:textColor="#fafafa"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login here"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        />
+</LinearLayout>
+
